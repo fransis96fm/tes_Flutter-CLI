@@ -97,3 +97,21 @@
 | Debug   | `flutter run -d chrome`           | Browser (JS mode)        | ✅            | Hot reload aktif                              |
 | Profile | `flutter run --profile -d chrome` | Browser (profiling mode) | ✅            | Untuk uji performa                            |
 | Release | `flutter build chrome --release`     | Build web final          | ❌            | Sudah optimisasi penuh, tidak ada profil data |
+
+
+### Preview a widget     
+
+```
+import 'package:flutter/widget_previews.dart';
+import 'package:flutter/material.dart'; // For Material widgets
+
+@Preview(name: 'My Sample Text')
+Widget mySampleText() {
+  return const Text('Hello, World!');
+}
+```
+
+- Command line  
+```
+flutter widget-preview start
+```
