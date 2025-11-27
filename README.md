@@ -16,7 +16,7 @@
   ```
   flutter run
   ```   
-- Menentukan perangkat target (contoh: ``flutter run -d chrome``):   
+- Menentukan perangkat target (**e.g.** ``flutter run -d chrome``):   
   ```
   flutter run -d <device>
   ```   
