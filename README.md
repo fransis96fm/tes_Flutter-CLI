@@ -113,6 +113,6 @@
   ```  
 
 - Command line  
-```
-flutter widget-preview start
-```
+  ```  
+  flutter widget-preview start  
+  ```
