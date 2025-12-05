@@ -100,11 +100,11 @@
 
 
 ### Preview a widget     
-
+**import package**
 ```
 import 'package:flutter/widget_previews.dart'; 
-import 'package:flutter/material.dart'; 
 ```
+**Menambahkan Widget Preview**
 ```
 @Preview(name: 'My Sample Text')
 Widget mySampleText() {
