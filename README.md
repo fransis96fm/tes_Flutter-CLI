@@ -100,17 +100,17 @@
 
 
 ### Preview a widget     
-**import package**
-```
-import 'package:flutter/widget_previews.dart'; 
-```
-**Menambahkan Widget Preview**
-```
-@Preview(name: 'My Sample Text')
-Widget mySampleText() {
-  return const Text('Hello, World!');
-}
-```
+- import package  
+  ```  
+  import 'package:flutter/widget_previews.dart';
+  ```  
+- Menambahkan Widget Preview  
+  ```
+  @Preview(name: 'My Sample Text')  
+  Widget mySampleText() {  
+    return const Text('Hello, World!');  
+  }
+  ```  
 
 - Command line  
 ```
